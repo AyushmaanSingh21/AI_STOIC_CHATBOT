@@ -1,0 +1,17 @@
+{
+  "name": "stoic-sage-simple",
+  "version": "1.0.0",
+  "description": "A simplified version of StoicSage focusing on quotes and daily practices",
+  "main": "server-simple.js",
+  "scripts": {
+    "start": "node server-simple.js",
+    "build": "cd client && npm run build",
+    "dev": "nodemon server-simple.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
